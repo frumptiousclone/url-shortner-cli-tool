@@ -1,0 +1,17 @@
+{
+  "name": "url-shortnr",
+  "version": "1.0.0",
+  "description": "CLI tool for shortening long URL's",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uttam",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17"
+  }
+}
