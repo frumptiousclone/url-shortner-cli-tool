@@ -4,7 +4,7 @@
 This CLI tool shortens URLs using a MongoDB database for storage. It uses Express.js for the API, Zod for URL schema validation, and Python's argparse module for the CLI interface. Sensitive information is stored in environment variables and a config file.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com//url-shortener.git`
+1. Clone the repository: `git clone https://github.com/frumptiousclone/url-shortener-cli-tool.git`
 2. Install dependencies: `npm install`
 
 ## Configuration
