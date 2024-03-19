@@ -1,9 +1,9 @@
 require('dotenv').config();
 const crypto = require("crypto");
 const express = require("express");
-const URL = require("../urlshortner/db");
-const urlSchema = require("../urlshortner/types");
-const config = require("../urlshortner/config");
+const URL = require("../server/db");
+const urlSchema = require("../server/types");
+const config = require("../server/config");
 const cors = require("cors");
 const app = express();
 

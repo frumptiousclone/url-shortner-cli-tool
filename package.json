@@ -4,12 +4,17 @@
   "description": "CLI tool for shortening long URL's",
   "main": "server.js",
   "scripts": {
+    "start": "node urlshortner/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "uttam",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.2",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17"

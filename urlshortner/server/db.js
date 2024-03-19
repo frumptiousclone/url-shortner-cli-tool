@@ -1,7 +1,7 @@
 const mongoose  = require("mongoose");
-const config = require("../urlshortner/config");
+const config = require("../server/config");
 require('dotenv').config();
-console.log(config.MONGO_URL);
+
 const connectdb = async () => {
 try {
     await mongoose.connect(config.MONGO_URL);
