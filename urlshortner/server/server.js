@@ -34,7 +34,7 @@ function schemaValidator(req, res, next) {
 app.post("/url-shortner", schemaValidator, async (req, res) => {
     const longURL = req.body.URL;
     const key = urlShortenSHA256(longURL, secret);
-    const shortURL = `uttam:${PORT}/${key}`;
+    const shortURL = `${hostname}:${PORT}/${key}`;
     try {
         const duplicateURL = await URL.findOne({key});
         if (!duplicateURL) {
