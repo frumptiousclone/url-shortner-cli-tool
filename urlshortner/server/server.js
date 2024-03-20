@@ -12,6 +12,7 @@ app.use(cors());
 
 const secret = config.SECRET;
 const PORT = config.PORT;
+const hostname = config.HOSTNAME;
 
 function urlShortenSHA256(url, secret) {
     const hash = crypto.createHmac('sha256', secret).update(url).digest('hex');

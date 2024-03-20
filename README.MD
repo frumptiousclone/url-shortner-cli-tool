@@ -14,7 +14,7 @@ This CLI tool shortens URLs using a MongoDB database for storage. It uses Expres
 ## Usage
 1. Shorten a URL:
    ```
-   python cli.py <url-to-shorten>
+   python urlshortner/cli/cli.py <url-to-shorten>
    ```
    
 2. Start the Express server:
